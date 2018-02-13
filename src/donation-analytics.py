@@ -84,7 +84,7 @@ def sort_by_year(df):
     df=df[['CMTE_ID','NAME','ZIP_CODE','TRANSACTION_DT','TRANSACTION_AMT']]
     return df
 
-#calculate precemtile contribution
+#calculate precentile contribution
 def calculate_pc(df,p):
     final_list=[]
     repeat_list=[]
